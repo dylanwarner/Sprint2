@@ -1,0 +1,53 @@
+#wrapper {
+    margin: auto;
+    width: 1024px;
+}
+
+body {
+    line-height: 0.6rem;
+}
+
+#scene {
+    margin-top: 20px;
+    width: 1024px;
+    height: 70%;
+    background-color: deepskyblue;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#animals {
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    margin-right: 35px;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    opacity: 0.5;
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+#main {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
