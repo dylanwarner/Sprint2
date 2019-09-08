@@ -5,15 +5,51 @@
 
 body {
     line-height: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 11px;
+    color: black;
+}
+
+#head_text {
+    padding-bottom: 5px;
+}
+
+button {
+    border-color: dodgerblue;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    color: black;
 }
 
 #scene {
     margin-top: 20px;
     width: 1024px;
     height: 70%;
-    background-color: deepskyblue;
     border-radius: 8px;
     text-align: center;
+    background-image: url('animals/scene.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+img {
 }
 
 #animals {
@@ -26,16 +62,15 @@ table {
 }
 
 .box {
-    width: 120px;
-    height: 120px;
+    width: 124px;
+    height: 130px;
     margin-right: 35px;
     float: left;
     text-align: center;
     border-radius: 15px;
     border-style: solid;
-    border-color: gray;
+    border-color: #E8E8E8;
     border-width: 2px;
-    opacity: 0.5;
 }
 
 h3 {
