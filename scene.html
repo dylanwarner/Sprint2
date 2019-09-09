@@ -2,13 +2,14 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <script src="drag.js"></script>
     </head>
     <body>
         <div id="wrapper">
             <div id="reset_div">
             <button id="reset" onClick="document.location.reload(true)">Reset</button>
             </div>
-            <div id="scene">
+            <div id="scene" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
             <div id="head_text">
             <h3>Make a song</h3>
@@ -21,27 +22,27 @@
                             <td class="body">
                                 <div class="box">
                                     <p>Wayne</p>
-                                    <img src="animals/seahorse.png">
+                                    <img src="animals/seahorse.png" id="seahorse" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="box">
                                     <p>Marvin</p>
-                                    <img src="animals/whale.png">
+                                    <img src="animals/whale.png" id="whale" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="box">
                                     <p>Trevor</p>
-                                    <img src="animals/starfish.png">
+                                    <img src="animals/starfish.png" id="starfish" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="box">
                                     <p>Bernard</p>
-                                    <img src="animals/crab.png">
+                                    <img src="animals/crab.png" id="crab" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="box">
                                     <p>Squirt</p>
-                                    <img src="animals/turtle.png">
+                                    <img src="animals/turtle.png" id="turtle" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="box">
                                     <p>Bubbles</p>
-                                    <img src="animals/dolphin.png">
+                                    <img src="animals/dolphin.png" id="dolphin" draggable="true" ondragstart="drag(event)">
                                 </div>
                             </td>
                         </tr>
