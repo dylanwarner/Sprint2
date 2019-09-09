@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.sea {
+    color: #3F75FE;
+}
+
 p {
     font-size: 11px;
     color: black;
@@ -18,7 +22,7 @@ p {
 }
 
 button {
-    border-color: dodgerblue;
+    border-color: #3F75FE;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -33,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: dodgerblue;
+    background-color: #3F75FE;
     color: black;
 }
 
@@ -74,7 +78,7 @@ table {
 }
 
 h3 {
-    color: dodgerblue;
+    color: #3F75FE;
 }
 
 #main {
